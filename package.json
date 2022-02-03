@@ -1,0 +1,23 @@
+{
+  "name": "precise-location-service",
+  "version": "1.0.0",
+  "description": "A precise location service that identifies the client covering where a particular user is.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/precise-location-service.git"
+  },
+  "keywords": [
+    "\"precise",
+    "location\""
+  ],
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/precise-location-service/issues"
+  },
+  "homepage": "https://github.com/EviCoach/precise-location-service#readme"
+}
