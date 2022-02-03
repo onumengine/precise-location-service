@@ -4,7 +4,8 @@
   "description": "A precise location service that identifies the client covering where a particular user is.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/EviCoach/precise-location-service/issues"
   },
-  "homepage": "https://github.com/EviCoach/precise-location-service#readme"
+  "homepage": "https://github.com/EviCoach/precise-location-service#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  }
 }
