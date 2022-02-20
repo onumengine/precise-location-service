@@ -9,6 +9,7 @@ exports.update = async (req, res) => {
 exports.delete = async (req, res) => {
 
 }
-exports.find = async (req, res) => {
 
+exports.find = async (req, res) => {
+    
 }

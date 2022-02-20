@@ -9,12 +9,15 @@ const polygonSchema = new mongoose.Schema({
     coordinates: {
         type: [[[Number]]], // Array of arrays of arrays of number
         required: true
+    },
+    metadata: {
+        type: Object
     }
 });
 
-const serviceAreaSchema = new mongoose.Schema({
+const areaSchema = new mongoose.Schema({
     name: String,
-    location: polygonSchema
+    location: polygonSchema,
 });
 
-module.exports = mongoose.model("service_areas", serviceAreaSchema);
+module.exports = mongoose.model("areas", areaSchema);

@@ -12,10 +12,8 @@ const pointSchema = new mongoose.Schema({
 });
 
 const userSchema = new mongoose.Schema({
-    firstName: String,
-    lastName: String,
+    name: String,
     location: pointSchema,
-    required: true
 }, {
     toJSON: {
         transform: (doc, ret) => {

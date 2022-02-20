@@ -7,8 +7,9 @@ require("./app/helper");
 require("./startups");
 
 const app = express();
+app.use(express.json());
 
-app.use("/api/v1", require("./routes/v1"));
+app.use("/api/v2", require("./routes/v2"));
 
 app.listen(port, () => {
     console.log(`${process.env.APP_NAME} listening on port ${port}`);

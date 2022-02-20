@@ -1,2 +1,3 @@
-require('./database')
-require('./listener')
+// require('./database')
+require('./db');
+require('./listener');
